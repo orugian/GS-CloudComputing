@@ -240,6 +240,13 @@ sudo systemctl status rag-api
 
 ---
 
+##  Interface da Aplicação
+
+<img width="1767" height="926" alt="image" src="https://github.com/user-attachments/assets/7d3f1780-d7ee-48af-bbc2-59a0ae8417d9" />
+
+---
+
+
 ## ��� Configurações de Chunking
 
 O projeto passou por **múltiplas iterações** para otimizar a qualidade do RAG:
