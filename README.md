@@ -1,4 +1,4 @@
-# ��� IceMan Intelligent Catalog — Assistente IA com RAG na AWS
+# ��� IceMan Intelligent Catalog — Assistente IA com RAG na AWS
 
 > Trabalho Final de Semestre — FIAP Graduação  
 > Disciplina: Arquitetura de Soluções na AWS  
@@ -6,7 +6,7 @@
 
 ---
 
-## ��� Visão Geral
+## ��� Visão Geral
 
 Sistema de **Assistente de IA com Retrieval-Augmented Generation (RAG)** deployado integralmente na AWS, desenvolvido como trabalho final de semestre.
 
@@ -16,7 +16,7 @@ O sistema permite fazer upload de documentos (PDF/TXT), indexá-los em um banco 
 
 ---
 
-## ���️ Arquitetura
+## ���️ Arquitetura
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -73,7 +73,7 @@ O sistema permite fazer upload de documentos (PDF/TXT), indexá-los em um banco 
 
 ---
 
-## ���️ Stack Tecnológica
+## ���️ Stack Tecnológica
 
 | Componente | Tecnologia | Versão |
 |---|---|---|
@@ -92,14 +92,14 @@ O sistema permite fazer upload de documentos (PDF/TXT), indexá-los em um banco 
 
 | Serviço | Configuração | Função |
 |---|---|---|
-| **EC2** | t3.medium (2 vCPU, 4GB RAM) — Ubuntu 24.04 | API + LLM local |
+| **EC2** | t3.large (2 vCPU, 8GB RAM) — Ubuntu 24.04 | API + LLM local |
 | **Aurora PostgreSQL** | db.t3.medium — PostgreSQL 15 + pgvector | Banco vetorial |
 | **S3** | Static Website Hosting habilitado | Frontend |
 | **Security Groups** | Porta 22 (SSH) + 8000 (API) | Segurança de rede |
 
 ---
 
-## ��� Endpoints da API
+## ��� Endpoints da API
 
 | Método | Endpoint | Função |
 |---|---|---|
@@ -128,7 +128,7 @@ curl -X POST http://<EC2_IP>:8000/chat \
 
 ---
 
-## ��� Deploy — Passo a Passo
+## ��� Deploy — Passo a Passo
 
 ### Pré-requisitos
 
@@ -240,7 +240,7 @@ sudo systemctl status rag-api
 
 ---
 
-## ��� Configurações de Chunking
+## ��� Configurações de Chunking
 
 O projeto passou por **múltiplas iterações** para otimizar a qualidade do RAG:
 
@@ -268,7 +268,7 @@ O projeto passou por **múltiplas iterações** para otimizar a qualidade do RAG
 
 ---
 
-## ��� Troubleshooting
+## ��� Troubleshooting
 
 ### API não sobe após restart
 
@@ -329,7 +329,7 @@ sudo systemctl restart rag-api
 
 ---
 
-## ��� Estrutura do Projeto
+## ��� Estrutura do Projeto
 
 ```
 .
@@ -349,7 +349,7 @@ sudo systemctl restart rag-api
 
 ---
 
-## ��� Lições Aprendidas
+## ��� Lições Aprendidas
 
 ### Problemas encontrados e soluções
 
@@ -376,7 +376,7 @@ Reduz a infraestrutura — um único serviço RDS já cobre banco relacional + b
 
 ---
 
-## ��� Equipe
+## ��� Equipe
 
 | Nome | Papel |
 |---|---|
@@ -387,7 +387,7 @@ Reduz a infraestrutura — um único serviço RDS já cobre banco relacional + b
 
 ---
 
-## ��� Links
+## ��� Links
 
 - **Repositório:** [github.com/orugian/GS-CloudComputing](https://github.com/orugian/GS-CloudComputing.git)
 - **Repositório base:** [github.com/arquitetoitamar/aula-2-api](https://github.com/arquitetoitamar/aula-2-api)
@@ -396,6 +396,6 @@ Reduz a infraestrutura — um único serviço RDS já cobre banco relacional + b
 
 ---
 
-## ��� Licença
+## ��� Licença
 
 Projeto acadêmico — FIAP 2026
