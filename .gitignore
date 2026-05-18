@@ -1,0 +1,28 @@
+# Credenciais — NUNCA subir
+**/.env
+.env
+
+# Python
+**/__pycache__/
+**/venv/
+**/*.py[cod]
+**/*.pyo
+**/*.egg-info/
+
+# Cache HuggingFace (modelos baixados no deploy)
+**/.cache/
+**/models/
+**/hub/
+
+# Logs
+**/*.log
+**/logs/
+
+# Backups gerados durante edição
+**/*.backup*
+**/*.bak*
+**/*.bak-*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
