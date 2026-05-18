@@ -1,7 +1,7 @@
 # 🧊 IceMan Intelligent Catalog — Assistente IA com RAG na AWS
 
 > Trabalho Final de Semestre — FIAP Graduação  
-> Disciplina: Arquitetura de Soluções na AWS  
+> Disciplina: Cloud Computing  
 > Prof. Itamar | 1º Semestre 2026
 
 ---
