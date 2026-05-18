@@ -378,12 +378,13 @@ Reduz a infraestrutura — um único serviço RDS já cobre banco relacional + b
 
 ## ��� Equipe
 
-| Nome | Papel |
+| Nome | RM |
 |---|---|
-| [Nome 1] | Infra AWS (EC2, RDS, Security Groups, S3) |
-| [Nome 2] | Backend / API (Flask, RAG, LLM) |
-| [Nome 3] | Frontend (Interface, integração com API) |
-| [Nome 4] | Docs e Testes (README, validação, apresentação) |
+| Guilherme Orugian | 572882 |
+| Lucas Henrique | 571901 |
+| Rafael Jun Aita Hirata | 569708 |
+| Rodrigo Bettio | 573725 |
+| Vinicius Eddo | 571008 |
 
 ---
 
@@ -391,8 +392,7 @@ Reduz a infraestrutura — um único serviço RDS já cobre banco relacional + b
 
 - **Repositório:** [github.com/orugian/GS-CloudComputing](https://github.com/orugian/GS-CloudComputing.git)
 - **Repositório base:** [github.com/arquitetoitamar/aula-2-api](https://github.com/arquitetoitamar/aula-2-api)
-- **Documentação do projeto:** [arquitetoitamar.github.io/aula-2-api](https://arquitetoitamar.github.io/aula-2-api/)
-- **Frontend (S3):** [URL do bucket S3]
+- **Frontend (S3):** (http://rag-frontend-2026.s3-website-us-east-1.amazonaws.com/)
 
 ---
 
