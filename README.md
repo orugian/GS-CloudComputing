@@ -1,4 +1,4 @@
-# ��� IceMan Intelligent Catalog — Assistente IA com RAG na AWS
+# 🧊 IceMan Intelligent Catalog — Assistente IA com RAG na AWS
 
 > Trabalho Final de Semestre — FIAP Graduação  
 > Disciplina: Arquitetura de Soluções na AWS  
@@ -6,7 +6,7 @@
 
 ---
 
-## ��� Visão Geral
+## Visão Geral
 
 Sistema de **Assistente de IA com Retrieval-Augmented Generation (RAG)** deployado integralmente na AWS, desenvolvido como trabalho final de semestre.
 
@@ -16,7 +16,7 @@ O sistema permite fazer upload de documentos (PDF/TXT), indexá-los em um banco 
 
 ---
 
-## ���️ Arquitetura
+## 🥷 Arquitetura
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -73,7 +73,7 @@ O sistema permite fazer upload de documentos (PDF/TXT), indexá-los em um banco 
 
 ---
 
-## ���️ Stack Tecnológica
+## Stack Tecnológica
 
 | Componente | Tecnologia | Versão |
 |---|---|---|
@@ -99,7 +99,7 @@ O sistema permite fazer upload de documentos (PDF/TXT), indexá-los em um banco 
 
 ---
 
-## ��� Endpoints da API
+## Endpoints da API
 
 | Método | Endpoint | Função |
 |---|---|---|
@@ -128,7 +128,7 @@ curl -X POST http://<EC2_IP>:8000/chat \
 
 ---
 
-## ��� Deploy — Passo a Passo
+## Deploy — Passo a Passo
 
 ### Pré-requisitos
 
@@ -253,7 +253,7 @@ O projeto passou por **múltiplas iterações** para otimizar a qualidade do RAG
 
 ---
 
-## �� Variáveis de Ambiente
+## Variáveis de Ambiente
 
 | Variável | Descrição | Exemplo |
 |---|---|---|
@@ -268,7 +268,7 @@ O projeto passou por **múltiplas iterações** para otimizar a qualidade do RAG
 
 ---
 
-## ��� Troubleshooting
+## Troubleshooting
 
 ### API não sobe após restart
 
@@ -329,27 +329,7 @@ sudo systemctl restart rag-api
 
 ---
 
-## ��� Estrutura do Projeto
-
-```
-.
-├── back/
-│   ├── main.py              # API Flask + RAG + LLM
-│   ├── requirements.txt     # Dependências Python
-│   ├── Dockerfile           # Container da API
-│   ├── .env.sample          # Template de variáveis
-│   └── .gitignore
-├── front/
-│   ├── index.html           # Interface do chat
-│   └── assets/              # Logo e recursos estáticos
-├── docs/
-│   └── estoque_iceman.txt   # Base de conhecimento (exemplo)
-└── README.md
-```
-
----
-
-## ��� Lições Aprendidas
+## Lições Aprendidas
 
 ### Problemas encontrados e soluções
 
@@ -376,7 +356,7 @@ Reduz a infraestrutura — um único serviço RDS já cobre banco relacional + b
 
 ---
 
-## ��� Equipe
+## 🥷 Equipe
 
 | Nome | RM |
 |---|---|
