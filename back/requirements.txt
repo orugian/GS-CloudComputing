@@ -9,3 +9,4 @@ python-dotenv
 numpy
 gunicorn==21.2.0
 accelerate
+requests>=2.31.0
