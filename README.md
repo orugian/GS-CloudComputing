@@ -253,7 +253,8 @@ curl -s -X POST http://localhost:8000/chat \
 
 ##  Interface da Aplicação
 
-<img width="1767" height="926" alt="image" src="https://github.com/user-attachments/assets/7d3f1780-d7ee-48af-bbc2-59a0ae8417d9" />
+<img width="2514" height="924" alt="image" src="https://github.com/user-attachments/assets/bf5900a8-100d-4d06-b359-b2b339978821" />
+
 
 ---
 
