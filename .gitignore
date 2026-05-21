@@ -2,6 +2,14 @@
 **/.env
 .env
 
+# Chaves SSH / PEM
+**/*.pem
+*.pem
+
+# Notas de acesso interno (IPs, usuários)
+**/acesso_ec2.md
+acesso_ec2.md
+
 # Python
 **/__pycache__/
 **/venv/

@@ -1,1 +1,0 @@
-ssh -i ./CHAVE.pem ubuntu@IP
