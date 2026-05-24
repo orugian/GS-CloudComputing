@@ -1,8 +1,7 @@
-# 🧊 IceMan Intelligent Catalog — Assistente IA com RAG na AWS
+# IceMan Intelligent Catalog — Assistente IA com RAG na AWS
 
-> Trabalho Final de Semestre — FIAP Graduação  
-> Disciplina: Cloud Computing  
-> Prof. Itamar | 1º Semestre 2026
+
+<img width="1981" height="794" alt="Adobe Express - file" src="https://github.com/user-attachments/assets/4c1ef540-1d69-413b-a614-b33349ee80ac" />
 
 ---
 
