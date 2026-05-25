@@ -93,7 +93,7 @@ O sistema permite fazer upload de documentos (PDF/TXT), indexá-los em um banco 
 
 | Serviço               | Configuração                              | Função            |
 |-----------------------|-------------------------------------------|-------------------|
-| **EC2**               | t3.medium — Ubuntu 24.04                  | API + embedder    |
+| **EC2**               | t3.large — Ubuntu 24.04                  | API + embedder    |
 | **Aurora PostgreSQL** | db.t3.medium — PostgreSQL 15 + pgvector   | Banco vetorial    |
 | **S3**                | Static Website Hosting habilitado         | Frontend          |
 | **Security Groups**   | Porta 22 (SSH) + 8000 (API)               | Segurança de rede |
@@ -377,22 +377,6 @@ curl -s -X POST http://localhost:8000/chat \
 **Por que busca híbrida?** Para entidades nomeadas (marcas, lojas), a similaridade cosseno pura pode ranquear chunks irrelevantes mais alto que os corretos. O filtro keyword garante que a busca semântica aconteça apenas no subconjunto relevante.
 
 **Por que pgvector em vez de Pinecone/Chroma?** Reduz a infraestrutura — um único serviço RDS já cobre banco relacional + banco vetorial. Menos pontos de falha, menor custo operacional.
-
----
-
-
-## 🥷 Equipe
-
-
-| Nome                   | RM     |
-|------------------------|--------|
-| Guilherme Orugian      | 572882 |
-| Lucas Henrique         | 571901 |
-| Rafael Jun Aita Hirata | 569708 |
-| Rodrigo Bettio         | 573725 |
-| Vinicius Eddo          | 571008 |
-
-
 
 ---
 
