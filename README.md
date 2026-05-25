@@ -378,17 +378,6 @@ curl -s -X POST http://localhost:8000/chat \
 
 **Por que pgvector em vez de Pinecone/Chroma?** Reduz a infraestrutura — um único serviço RDS já cobre banco relacional + banco vetorial. Menos pontos de falha, menor custo operacional.
 
----
-
-## 🥷 Equipe
-
-| Nome                   | RM     |
-|------------------------|--------|
-| Guilherme Orugian      | 572882 |
-| Lucas Henrique         | 571901 |
-| Rafael Jun Aita Hirata | 569708 |
-| Rodrigo Bettio         | 573725 |
-| Vinicius Eddo          | 571008 |
 
 ---
 
